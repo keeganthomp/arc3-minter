@@ -1,0 +1,21 @@
+{
+  "name": "arc3-minter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mint": "npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algosdk": "^1.15.0",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "ipfs-http-client": "^55.0.0",
+    "jimp": "^0.16.1",
+    "js-sha256": "^0.9.0"
+  }
+}

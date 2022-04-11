@@ -1,8 +1,12 @@
 const { getAccount, createAsset } = require('./lib/Algorand')
-const { getMetaDataFromFile, keypress } = require('./utils')
+// const { getMetaDataFromFile, keypress } = require('./utils')
 const { createComposite } = require('./lib/Composit')
+require('dotenv').config()
+
 
 const PREFIX = 'EVIE'
+
+console.log('process.env', process.env)
 
 const mintNft = (nftMetaData, user) => createAsset(PREFIX, nftMetaData, user)
 

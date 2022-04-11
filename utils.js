@@ -1,4 +1,3 @@
-const metaDataJson = require('./NFT/_metadata.json')
 
 const keypress = async () => {
   process.stdin.setRawMode(true)
@@ -10,9 +9,7 @@ const keypress = async () => {
   )
 }
 
-const getMetaDataFromFile = () => metaDataJson
 
 module.exports = {
   keypress,
-  getMetaDataFromFile,
 }
